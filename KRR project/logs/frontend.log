@@ -1,0 +1,10 @@
+
+  VITE v8.0.9  ready in 543 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.10.102:5173/
+  ➜  Network: http://172.19.0.1:5173/
+6:58:34 AM [vite] (client) hmr update /src/pages/ComparisonView.jsx, /src/index.css
+6:58:34 AM [vite] (client) hmr update /src/pages/LiteratureReview.jsx, /src/index.css
+6:58:34 AM [vite] (client) hmr update /src/pages/TopicInput.jsx, /src/index.css
+6:58:35 AM [vite] (client) hmr update /src/index.css, /src/components/layout/Sidebar.jsx
