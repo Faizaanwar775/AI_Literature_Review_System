@@ -1,0 +1,65 @@
+INFO:     Will watch for changes in these directories: ['/home/arthas/Documents/GitHub/KRR project/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [48347] using WatchFiles
+INFO:     Started server process [48387]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "GET /api/library HTTP/1.1" 200 OK
+🧠 Sending PDF text to Groq API for analysis...
+📡 Calling Groq API (llama-3.1-8b-instant)...
+✅ Groq response received: 1206 chars (model: llama-3.1-8b-instant)
+✅ Paper stored: a3b5dcd9-6d43-4c28-ab7a-5a7aee3c6d25 — 'Continuous Testing and Solutions for Testing Problems in Continuous Delivery: A Systematic Literature Review'
+INFO:     127.0.0.1:42176 - "POST /api/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42176 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44816 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44816 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44816 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44816 - "GET /api/library HTTP/1.1" 200 OK
+🧠 Sending PDF text to Groq API for analysis...
+📡 Calling Groq API (llama-3.1-8b-instant)...
+✅ Groq response received: 1576 chars (model: llama-3.1-8b-instant)
+✅ Paper stored: a2e6f911-bc40-43b7-88f6-fdc91118872f — 'The State of Test Automation in DevOps: A Systematic Literature Review'
+INFO:     127.0.0.1:43560 - "POST /api/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43560 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46582 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46582 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43560 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43560 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46582 - "GET /api/library HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46582 - "OPTIONS /api/compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43560 - "OPTIONS /api/compare HTTP/1.1" 200 OK
+🧠 Comparing papers via Groq API...
+📡 Calling Groq API (llama-3.3-70b-versatile)...
+✅ Groq response received: 1663 chars (model: llama-3.3-70b-versatile)
+❌ JSON parsing error: Expecting ',' delimiter: line 5 column 581 (char 1663)
+INFO:     127.0.0.1:46582 - "POST /api/compare HTTP/1.1" 200 OK
+🧠 Comparing papers via Groq API...
+📡 Calling Groq API (llama-3.3-70b-versatile)...
+✅ Groq response received: 1714 chars (model: llama-3.3-70b-versatile)
+INFO:     127.0.0.1:46598 - "POST /api/compare HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48387]
+INFO:     Started server process [50441]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/auth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50441]
+INFO:     Started server process [51714]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
