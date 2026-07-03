@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+PyMuPDF
+groq
+pydantic
+pydantic-settings
+python-multipart
+python-jose[cryptography]
